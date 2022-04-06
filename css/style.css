@@ -1338,7 +1338,7 @@ header .navbar-brand .social-icon a {
   left: 0;
   right: 0;
   content: '';
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0);
   z-index: 1;
 }
 
@@ -1381,7 +1381,7 @@ header .navbar-brand .social-icon a {
 #banner .flexslider .slider-text {
   display: table;
   opacity: 0;
-  height: 700px;
+  height: 60vh;
   z-index: 9;
 }
 
@@ -1394,7 +1394,6 @@ header .navbar-brand .social-icon a {
 #banner .flexslider .slider-text>.slider-text-inner {
   display: table-cell;
   vertical-align: middle;
-  height: 700px;
 }
 
 #banner .flexslider .slider-text>.slider-text-inner h2 {
@@ -1436,7 +1435,6 @@ header .navbar-brand .social-icon a {
 
 #banner .flexslider .slider-text>.slider-text-inner .desc {
   padding: 5em;
-  margin-bottom: 20em;
   text-align: center;
 }
 
@@ -2141,7 +2139,8 @@ header .navbar-brand .social-icon a {
   margin-bottom: 30px;
   position: relative;
   width: 100%;
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   float: left;
   background: #000;
   border-bottom: 2px solid #FF6700;
@@ -2172,7 +2171,7 @@ header .navbar-brand .social-icon a {
 }
 
 #blog .blog .blog-text h3 a {
-  color: white;
+  color: #FF6700;
 }
 
 #blog .blog .blog-text:hover {
