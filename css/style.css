@@ -375,19 +375,6 @@ hr {
   padding: 0 5px;
 }
 
-.social-icon a i {
-  color: #fff;
-}
-
-.social-icon a:hover,
-.social-icon a:focus {
-  text-decoration: none;
-}
-
-.social-icon a i:hover {
-  color: #000;
-}
-
 .social-links {
   content: '';
   position: absolute;
